@@ -6,7 +6,7 @@ function Lib() end function setvalue(address,flags,value) Lib('Modify address va
 
 PIKZ = 1 
 
-function homee()
+function home()
 q = gg.choice({
 "           《𝑴𝒀𝑻𝑯𝑰𝑪 𝑺𝑲𝑰𝑵𝑺 𝑴𝑬𝑵𝑼》",
 "           《𝑳𝑬𝑮𝑬𝑵𝑫𝑨𝑹𝒀 𝑺𝑲𝑰𝑵𝑺 𝑴𝑬𝑵𝑼》",

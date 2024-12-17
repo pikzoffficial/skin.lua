@@ -1,3 +1,11 @@
+function setvalue(address,flags,value) Lib('Modify address value(Address, value type, value to be modified)') local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+function setValues(address, flags, value) gg.setValues({[1] = {address = address, flags = flags, value = value}}) end
+function setvalue(address,flags,value)
+local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+
+PIKZ = 1
+
+function homee()
 q = gg.choice({
 "           《𝑴𝒀𝑻𝑯𝑰𝑪 𝑺𝑲𝑰𝑵𝑺 𝑴𝑬𝑵𝑼》",
 "           《𝑳𝑬𝑮𝑬𝑵𝑫𝑨𝑹𝒀 𝑺𝑲𝑰𝑵𝑺 𝑴𝑬𝑵𝑼》",
